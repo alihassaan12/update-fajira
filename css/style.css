@@ -300,13 +300,6 @@ h6 {
     height: auto;
 }
 
-.tabs-lg-col {
-    background: #FFFFFF;
-    border: 2px solid #EEEEEE;
-    box-shadow: 2px 8.49px 17.493px rgba(0, 0, 0, 0.08);
-    border-radius: 24.9899px;
-    padding: 80px;
-}
 
 .binof-btn-demo {
     border: 1px solid rgba(30, 120, 255, 1);
@@ -369,11 +362,6 @@ h6 {
 }
 
 .s-img-tabs {
-    background: #FFFFFF;
-    border: 2px solid #EEEEEE;
-    box-shadow: 2px 8.49px 17.493px rgba(0, 0, 0, 0.08);
-    border-radius: 12.495px;
-    padding: 22px;
     width: 100px !important;
     height: 90px !important;
 }
