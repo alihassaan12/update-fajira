@@ -91,6 +91,7 @@ h2 {
 
 }
 
+
 h3 {
     font-family: "Manrope-Bold";
     line-height: 44px !important;
@@ -102,7 +103,7 @@ h4 {
 }
 
 h5 {
-    font-family: "Manrope-Bold";
+    font-family: "Manrope-SemiBold";
     line-height: 44px !important;
 }
 
@@ -412,9 +413,10 @@ h6 {
     color: rgba(148, 148, 148, 1) !important;
 }
 
-.gray-bg{
+.gray-bg {
     background-color: rgba(248, 248, 248, 1);
 }
+
 /*--------------Subscribe Newsletter Section end ----------------*/
 
 
@@ -441,6 +443,63 @@ h6 {
 /*--------------------fajira-Businesses-end ---------------------*/
 
 
+/* --------------------toltip-start --------------------- */
+[data-tooltip] {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+[data-tooltip]:before,
+[data-tooltip]:after {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+[data-tooltip]:before {
+    position: absolute;
+    bottom: 80%;
+    left: 50%;
+    margin-bottom: 5px;
+    margin-left: -80px;
+    padding: 20px;
+    width: 120px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    background-color: rgba(70, 168, 34, 0.699);
+    color: #fff;
+    content: attr(data-tooltip);
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+[data-tooltip]:after {
+    position: absolute;
+    bottom: 79%;
+    left: 45%;
+    margin-left: -5px;
+    width: 0;
+    border-top: 5px solid rgba(70, 168, 34, 0.705);
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    content: " ";
+    font-size: 0;
+    line-height: 0;
+}
+
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+    visibility: visible;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+}
+
+/* --------------------toltip-end --------------------- */
 
 @media only screen and (min-width: 1024px) {
     .sm {
