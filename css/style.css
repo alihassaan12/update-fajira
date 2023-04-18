@@ -99,7 +99,7 @@ h3 {
 
 h4 {
     font-family: "Manrope-Bold";
-    line-height: 44px !important;
+    line-height: 25px !important;
 }
 
 h5 {
@@ -500,6 +500,41 @@ h6 {
 }
 
 /* --------------------toltip-end --------------------- */
+
+/* --------------------All of Your Needs-start --------------------- */
+.card-solution {
+    background: #FFFFFF;
+    border: 2px solid #EEEEEE;
+    box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.05);
+    padding: 15px;
+    display: table-cell;
+}
+
+.soltion-icon {
+    background: #FFFFFF;
+    border: 2px solid #EEEEEE;
+    margin: 0px 5px;
+    padding: 10px 15px;
+}
+
+/* --------------------All of Your Needs-end --------------------- */
+
+/* --------------------Our Support Team -end --------------------- */
+.card-team {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 25px 0px;
+}
+
+/* --------------------Our Support Team-end --------------------- */
+
+
+
+.graay-bg{
+    background: #F8F8F8;
+}
 
 @media only screen and (min-width: 1024px) {
     .sm {
