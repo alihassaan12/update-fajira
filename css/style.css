@@ -32,7 +32,6 @@ button a {
 }
 
 input:focus {
-    border: none !important;
     outline: none !important;
 }
 
@@ -347,6 +346,10 @@ h6 {
     border: 1px solid rgba(118, 192, 67, 1);
 }
 
+.para-align {
+    padding-inline: 18%;
+}
+
 .beas-btn-demo {
     border: 1px solid rgba(255, 99, 67, 1);
     background-color: transparent;
@@ -406,9 +409,12 @@ h6 {
 }
 
 ::placeholder {
-    color: rgba(186, 186, 186, 1) !important;
+    color: rgba(148, 148, 148, 1) !important;
 }
 
+.gray-bg{
+    background-color: rgba(248, 248, 248, 1);
+}
 /*--------------Subscribe Newsletter Section end ----------------*/
 
 
@@ -435,6 +441,7 @@ h6 {
 /*--------------------fajira-Businesses-end ---------------------*/
 
 
+
 @media only screen and (min-width: 1024px) {
     .sm {
         display: none !important;
@@ -458,6 +465,10 @@ h6 {
         width: 80% !important;
         margin: 20px 0px;
     }
+
+    .para-align {
+        padding-inline: 0%;
+    }
 }
 
 @media only screen and (min-width: 540px) and (max-width: 720px) {
@@ -472,6 +483,10 @@ h6 {
     .col-4-feacture {
         width: 80% !important;
         margin: 20px 0px;
+    }
+
+    .para-align {
+        padding-inline: 0%;
     }
 }
 
@@ -542,6 +557,10 @@ h6 {
         width: 80px !important;
         height: 80px !important;
     }
+
+    .para-align {
+        padding-inline: 0%;
+    }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
@@ -610,5 +629,9 @@ h6 {
         padding: 12px;
         width: 80px !important;
         height: 80px !important;
+    }
+
+    .para-align {
+        padding-inline: 0%;
     }
 }
