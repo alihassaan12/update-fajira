@@ -515,18 +515,11 @@ h6 {
 
 /* --------------------All of Your Needs-start --------------------- */
 .card-solution {
-    background: #FFFFFF;
-    border: 2px solid #EEEEEE;
     box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.05);
-    padding: 15px;
-    display: table-cell;
 }
-
-.soltion-icon {
-    background: #FFFFFF;
-    border: 2px solid #EEEEEE;
-    margin: 0px 5px;
-    padding: 10px 15px;
+.apps-icons{
+    width: 100px;
+    height: 100px;
 }
 
 /* --------------------All of Your Needs-end --------------------- */
