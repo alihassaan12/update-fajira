@@ -517,7 +517,8 @@ h6 {
 .card-solution {
     box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.05);
 }
-.apps-icons{
+
+.apps-icons {
     width: 100px;
     height: 100px;
 }
@@ -535,6 +536,30 @@ h6 {
 
 /* --------------------Our Support Team-end --------------------- */
 
+ul li:hover {
+    background-color: #ddd;
+    border-top-color: blue;
+    color: blue;
+}
+
+.b-tab {
+    display: none;
+}
+
+.b-tab.active {
+    display: block;
+}
+
+.b-nav-tab {
+    display: inline-block;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.07);
+}
+
+.b-nav-tab.active {
+    border: 1px solid #46A822;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+}
 
 
 .graay-bg {
