@@ -566,6 +566,30 @@ ul li:hover {
     background: #F8F8F8;
 }
 
+/* faqs-page */
+.accordion-item {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: 1px solid rgba(0, 0, 0, .125) !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.accordion-button {
+    font-size: 18px !important;
+}
+
+/* faqs-page */
+
 @media only screen and (min-width: 1024px) {
     .sm {
         display: none !important;
