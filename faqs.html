@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fajira | Go Digital Grow Digital</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <!-----------------css Files---------------->
+    <link rel="stylesheet" href="css/style.css">
+    <!------------------------Bootstrap link----------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/megamanu.css">
+    <!------------------------font-awesome----------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!----------------------Start Navbar Section-------------------------->
+    <header>
+        <div class="nav-section py-4">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <a class="brand-logo" href="#">
+                        <img src="images/logo.png" style="max-width:100px !important;" alt="Gofrugal logo"
+                            class="gft-menu-logo">
+                    </a>
+                    <button class="menu">
+                        <span class="hamburger"></span>
+                    </button>
+                </div>
+                <div class="mega-menu">
+                    <div class="menu-list">
+                        <ul class="menu-nav">
+                            <li class="nav-submenu" id="busnav1">
+                                <div class="nav-business-name submenuevent busnav"><a href="">Our Products<i
+                                            class="fa-solid fa-angle-down mx-2 admin-text lg"></i></a> <span
+                                        class="bustoggleicon"></span>
+                                </div>
+                                <div class="deskview">
+                                    <ul class="nav-business-menu row">
+                                        <li class="nav-macro-menulist" id="dd_retail1">
+                                            <div class="nav-macro-name macroevent"><a href="">Apparel &
+                                                    Footwear</a></div>
+                                            <ul class="nav-micro-menu" id="retail_search1">
+                                                <li class="nav-micro-menulist active"><a href=""><span
+                                                            class="afmacro"></span>Apparel &
+                                                        Footwear</a></li>
+                                                <li class="nav-micro-menulist"><a href=""><span
+                                                            class="apparel"></span>Apparel &
+                                                        Clothing</a></li>
+                                                <li class="nav-micro-menulist"><a href=""><span
+                                                            class="boutique"></span>Boutiques</a></li>
+                                                <li class="nav-micro-menulist"><a href=""><span
+                                                            class="fancy"></span>Fancy
+                                                        costume</a></li>
+                                                <li class="nav-micro-menulist"><a href=""><span
+                                                            class="footwear"></span>Footwear</a></li>
+                                                <li class="nav-micro-menulist"><a href=""><span
+                                                            class="readymade"></span>Readymade
+                                                        Garment</a></li>
+                                                <li class="nav-micro-menulist"><a href=""><span
+                                                            class="shoe"></span>Shoes</a></li>
+                                                <li class="nav-micro-menulist"><a href=""><span
+                                                            class="textile"></span>Textile</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-macro-menulist">
+                                            <div class="nav-macro-name macroevent"><a href="">Hypermarket & Departmental
+                                                    Stores</a></div>
+                                            <ul class="nav-micro-menu" id="retail_search3">
+                                                <li class="nav-micro-menulist"><a href=""><span
+                                                            class="convenience"></span>Convenience
+                                                        store</a></li>
+                                                <li class="nav-micro-menulist"><a href=""><span
+                                                            class="department"></span>Department
+                                                        Stores</a></li>
+                                                <li class="nav-micro-menulist active"><a href=""><span
+                                                            class="hypermacro"></span>Hypermarket
+                                                        & Departmental
+                                                        Stores</a>
+                                                </li>
+                                                <li class="nav-micro-menulist"><a href=""><span
+                                                            class="hypermarket"></span>Hypermarket</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-macro-menulist">
+                                            <div class="nav-macro-name macroevent"><a href="">Pharma &
+                                                    Healthcare</a></div>
+                                            <ul class="nav-micro-menu" id="retail_search5">
+                                                <li class="nav-micro-menulist"><a href=""><span
+                                                            class="ayurvedic"></span>Ayurvedic &
+                                                        Wellness</a></li>
+                                                <li class="nav-micro-menulist"><a href=""><span
+                                                            class="chemist"></span>Chemists &
+                                                        druggists</a></li>
+                                                <li class="nav-micro-menulist"><a href=""><span
+                                                            class="healthcare"></span>Health care</a>
+                                                </li>
+                                                <li class="nav-micro-menulist"><a href=""><span
+                                                            class="medical"></span>Medical shop</a></li>
+                                                <li class="nav-micro-menulist active"><a href=""><span
+                                                            class="pharmacy"></span>Pharmacy</a>
+                                                </li>
+                                                <li class="nav-micro-menulist"><a href=""><span
+                                                            class="surgical"></span>Surgical</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-macro-menulist">
+                                            <div class="nav-macro-name macroevent"><a href="">Supermarket &
+                                                    Groceries</a></div>
+                                            <ul class="nav-micro-menu" id="retail_search6">
+                                                <li class="nav-micro-menulist"><a href=""><span
+                                                            class="fruits"></span>Fruits
+                                                        & Vegetables</a></li>
+                                                <li class="nav-micro-menulist"><a href=""><span
+                                                            class="vegatables"></span>Groceries and
+                                                        Vegetables</a></li>
+                                                <li class="nav-micro-menulist"><a href=""><span
+                                                            class="kirana"></span>Kirana</a></li>
+                                                <li class="nav-micro-menulist"><a href=""><span
+                                                            class="ricetrader"></span>Rice Traders</a>
+                                                </li>
+                                                <li class="nav-micro-menulist active"><a href=""><span
+                                                            class="supermarket"></span>Supermarket</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu-list">
+                        <ul class="menu-nav">
+                            <li class="nav-submenu">
+                                <div class="nav-business-name"><a href="">Pricing</a> <span></span></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu-list">
+                        <ul class="menu-nav">
+                            <li class="nav-submenu">
+                                <div class="nav-business-name"><a href="">How it Works</a> <span></span></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu-list">
+                        <ul class="menu-nav">
+                            <li class="nav-submenu">
+                                <div class="nav-business-name"><a href="about-us.html">About Us</a> <span></span></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu-list">
+                        <ul class="menu-nav">
+                            <li class="nav-submenu">
+                                <div class="nav-business-name"><a href="">FAQs</a> <span></span></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sm pt-5">
+                        <a href="#" class="btn admin-bg px-5 py-3">Get Started</a>
+                    </div>
+                </div>
+                <div class="lg">
+                    <a href="#" class="btn admin-bg">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!----------------------End NAvbar Section  ------------------------>
+
+    <!----------------------Home Section Start-------------------------->
+    <section class="container-fluid py-5 d-flex justify-content-center">
+        <div class="col-sm-12 col-md-12 col-lg-10 mx-auto ">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                    <h1 class="display-1">Lorem ipsum dolor sit amet,aipiscing elit.</h1>
+                    <img src="images/faqs/hero-layers.png" alt="not-found" class="img-fluid">
+                    <p class="pt-5 text-secondary py-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Curabitur
+                        lacus velit, ullamcorper sed vulputate at, porttitor
+                        a sem. Lorem ipsum dolor sit amet,</p>
+                    <button type="submit" value="Request Demo"
+                        class="green-bg btn admin-bg mt-3 mt-lg-0 mt-md-0">Contact Us</button>
+                </div>
+                <div class="col-lg-5 col-md-12 admin-radial offset-lg-1">
+                    <img src="images/faqs/hero-bg.png" alt="not-found" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----------------------------Home Section End---------------------------------->
+
+    <!------------------ Frequently Asked Questions Section start-------------------->
+    <section class="container-fluid py-5 d-flex justify-content-center">
+        <div class="col-sm-12 col-md-12 col-lg-10 mx-auto ">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-12 text-center pb-3">
+                    <h1 class="display-2 position-relative pb-5">Frequently Asked <span
+                            class="green-text">Questions</span></h1>
+                    <span class="position-absolute" style="top: 87px; right: 338px;"><img
+                            src="images/our-products/about-layer.png" class="img-fluid" alt="not-found"></span>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                    until the collapse
+                                    plugin adds the appropriate classes that we use to style each element. These classes
+                                    control the overall
+                                    appearance, as well as the showing and hiding via CSS transitions. You can modify
+                                    any of this with
+                                    custom CSS or overriding our default variables. It's also worth noting that just
+                                    about any HTML can go
+                                    within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse
+                                    plugin adds the appropriate classes that we use to style each element. These classes
+                                    control the overall
+                                    appearance, as well as the showing and hiding via CSS transitions. You can modify
+                                    any of this with
+                                    custom CSS or overriding our default variables. It's also worth noting that just
+                                    about any HTML can go
+                                    within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse
+                                    plugin adds the appropriate classes that we use to style each element. These classes
+                                    control the overall
+                                    appearance, as well as the showing and hiding via CSS transitions. You can modify
+                                    any of this with
+                                    custom CSS or overriding our default variables. It's also worth noting that just
+                                    about any HTML can go
+                                    within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingfour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse
+                                    plugin adds the appropriate classes that we use to style each element. These classes
+                                    control the overall
+                                    appearance, as well as the showing and hiding via CSS transitions. You can modify
+                                    any of this with
+                                    custom CSS or overriding our default variables. It's also worth noting that just
+                                    about any HTML can go
+                                    within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingfive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse
+                                    plugin adds the appropriate classes that we use to style each element. These classes
+                                    control the overall
+                                    appearance, as well as the showing and hiding via CSS transitions. You can modify
+                                    any of this with
+                                    custom CSS or overriding our default variables. It's also worth noting that just
+                                    about any HTML can go
+                                    within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingsix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse
+                                    plugin adds the appropriate classes that we use to style each element. These classes
+                                    control the overall
+                                    appearance, as well as the showing and hiding via CSS transitions. You can modify
+                                    any of this with
+                                    custom CSS or overriding our default variables. It's also worth noting that just
+                                    about any HTML can go
+                                    within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------Frequently Asked Questions Section End------------------>
+
+    <!---------------------  Subscribe Newsletter-start ------------------->
+    <section class="container-fluid py-5 d-flex justify-content-center">
+        <div class="col-sm-12 col-md-12 col-lg-10 mx-auto py-5">
+            <div class="bg-subscribe">
+                <div class="position-relative">
+                    <img src="images/subscribe/Group 427319232.png" class="img-fluid position-absolute"
+                        style="top: -23px; bottom: 0; right:-45px;" alt="not-found">
+                </div>
+                <div class="row justify-content-center align-items-center row-suscribe">
+                    <div class="col-sm-12 col-md-12 col-lg-8 text-center">
+                        <h1 class="display-2 text-white">Subscribe Newsletter</h1>
+                        <p class="text-white">Subscribe to get information, latest
+                            news and other
+                            interesting
+                            offers
+                            about Fajira.</p>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-7 text-center">
+                        <form action="">
+                            <input type="email" class="input-sus" placeholder="Your Email">
+                            <button class="Subscribe-btn" type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                    <div class="col-12 d-flex text-center justify-content-start px-4 align-items-center">
+                        <i class="fa-regular fa-face-smile mx-2 text-white fa-2x"></i>
+                        <i class="fa-regular fa-envelope-open mx-2 text-white fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------  Subscribe Newsletter-end -------------------->
+
+    <!-----------------------------  Footer-end -------------------------->
+    <section class="container-fluid py-5 d-flex justify-content-center">
+        <div class="col-sm-12 col-md-12 col-lg-10 mx-auto py-5">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-5 my-4 border-top">
+                <a href="/"
+                    class="col-sm-12 col-md-12 col-lg-4 d-flex align-items-center justify-content-start mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                    <img src="images/logo.png" class="img-fluid" alt="not-found">
+                </a>
+                <ul class="nav col-sm-12 col-md-12 col-lg-6 justify-content-lg-end">
+                    <li class="nav-item"><a href="#" class="nav-link px-3 fs-4 text-dark">How it Works</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-3 fs-4 text-dark">Faq’s</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-3 fs-4 text-dark">Blog</a></li>
+                    <li class="nav-item"><a href="contact-us.html" class="nav-link px-3 fs-4 text-dark">Contact us</a>
+                    </li>
+                </ul>
+                <div class="col-sm-12 col-md-12 col-lg-2 text-lg-end">
+                    <a href=""><i class="fa-brands fa-linkedin mx-3" style="color:rgba(70, 168, 34, 1);"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter mx-3" style="color:rgba(70, 168, 34, 1);"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-f mx-3" style="color:rgba(70, 168, 34, 1);"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram mx-3" style="color:rgba(70, 168, 34, 1);"></i></a>
+                </div>
+            </footer>
+            <div class="pt-5">
+                <p>© 2019, Fajira. All Rights Reserved</p>
+            </div>
+        </div>
+    </section>
+    <!----------------------------  Footer-end --------------------------->
+
+
+    <!--------------------Script Start---------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="js/megamenu.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/cutom.js"></script>
+    <!--------------------Script End---------------------------------->
+</body>
+
+</html>
